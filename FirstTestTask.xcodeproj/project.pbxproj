@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F4DE1C21E6C2B0A0006A980 /* MKDropdownMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F4DE1C11E6C2B0A0006A980 /* MKDropdownMenu.m */; };
 		0F86DA9B1E6C0A0300F74BF3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F86DA9A1E6C0A0300F74BF3 /* main.m */; };
 		0F86DA9E1E6C0A0300F74BF3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F86DA9D1E6C0A0300F74BF3 /* AppDelegate.m */; };
 		0F86DAA11E6C0A0300F74BF3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F86DAA01E6C0A0300F74BF3 /* ViewController.m */; };
 		0F86DAA41E6C0A0300F74BF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F86DAA21E6C0A0300F74BF3 /* Main.storyboard */; };
 		0F86DAA61E6C0A0300F74BF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F86DAA51E6C0A0300F74BF3 /* Assets.xcassets */; };
 		0F86DAA91E6C0A0300F74BF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F86DAA71E6C0A0300F74BF3 /* LaunchScreen.storyboard */; };
+		0F86DAB21E6C101A00F74BF3 /* RulesSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F86DAB11E6C101A00F74BF3 /* RulesSingleton.m */; };
+		0F86DAB51E6C10F900F74BF3 /* ProductModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F86DAB41E6C10F900F74BF3 /* ProductModel.m */; };
+		0FB0AB581E6C1CB200D7DE4D /* products.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0FB0AB571E6C1CB200D7DE4D /* products.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F4DE1C01E6C2B0A0006A980 /* MKDropdownMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKDropdownMenu.h; sourceTree = "<group>"; };
+		0F4DE1C11E6C2B0A0006A980 /* MKDropdownMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKDropdownMenu.m; sourceTree = "<group>"; };
 		0F86DA961E6C0A0300F74BF3 /* FirstTestTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstTestTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F86DA9A1E6C0A0300F74BF3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0F86DA9C1E6C0A0300F74BF3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +32,11 @@
 		0F86DAA51E6C0A0300F74BF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0F86DAA81E6C0A0300F74BF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0F86DAAA1E6C0A0300F74BF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F86DAB01E6C101A00F74BF3 /* RulesSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RulesSingleton.h; sourceTree = "<group>"; };
+		0F86DAB11E6C101A00F74BF3 /* RulesSingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RulesSingleton.m; sourceTree = "<group>"; };
+		0F86DAB31E6C10F900F74BF3 /* ProductModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductModel.h; sourceTree = "<group>"; };
+		0F86DAB41E6C10F900F74BF3 /* ProductModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductModel.m; sourceTree = "<group>"; };
+		0FB0AB571E6C1CB200D7DE4D /* products.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = products.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +50,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F4DE1BF1E6C2AFA0006A980 /* MKDropDownMenu */ = {
+			isa = PBXGroup;
+			children = (
+				0F4DE1C01E6C2B0A0006A980 /* MKDropdownMenu.h */,
+				0F4DE1C11E6C2B0A0006A980 /* MKDropdownMenu.m */,
+			);
+			name = MKDropDownMenu;
+			sourceTree = "<group>";
+		};
 		0F86DA8D1E6C0A0200F74BF3 = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +82,12 @@
 				0F86DA9D1E6C0A0300F74BF3 /* AppDelegate.m */,
 				0F86DA9F1E6C0A0300F74BF3 /* ViewController.h */,
 				0F86DAA01E6C0A0300F74BF3 /* ViewController.m */,
+				0F86DAB31E6C10F900F74BF3 /* ProductModel.h */,
+				0F86DAB41E6C10F900F74BF3 /* ProductModel.m */,
+				0F86DAB01E6C101A00F74BF3 /* RulesSingleton.h */,
+				0F86DAB11E6C101A00F74BF3 /* RulesSingleton.m */,
+				0F4DE1BF1E6C2AFA0006A980 /* MKDropDownMenu */,
+				0FB0AB571E6C1CB200D7DE4D /* products.plist */,
 				0F86DAA21E6C0A0300F74BF3 /* Main.storyboard */,
 				0F86DAA51E6C0A0300F74BF3 /* Assets.xcassets */,
 				0F86DAA71E6C0A0300F74BF3 /* LaunchScreen.storyboard */,
@@ -137,6 +163,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FB0AB581E6C1CB200D7DE4D /* products.plist in Resources */,
 				0F86DAA91E6C0A0300F74BF3 /* LaunchScreen.storyboard in Resources */,
 				0F86DAA61E6C0A0300F74BF3 /* Assets.xcassets in Resources */,
 				0F86DAA41E6C0A0300F74BF3 /* Main.storyboard in Resources */,
@@ -151,8 +178,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F86DAA11E6C0A0300F74BF3 /* ViewController.m in Sources */,
+				0F86DAB21E6C101A00F74BF3 /* RulesSingleton.m in Sources */,
+				0F86DAB51E6C10F900F74BF3 /* ProductModel.m in Sources */,
 				0F86DA9E1E6C0A0300F74BF3 /* AppDelegate.m in Sources */,
 				0F86DA9B1E6C0A0300F74BF3 /* main.m in Sources */,
+				0F4DE1C21E6C2B0A0006A980 /* MKDropdownMenu.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +337,7 @@
 				0F86DAAF1E6C0A0300F74BF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

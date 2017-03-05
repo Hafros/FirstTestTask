@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ru</key>
+	<dict>
+		<key>очки</key>
+		<dict>
+			<key>one</key>
+			<string>очки</string>
+			<key>few</key>
+			<string>очков</string>
+			<key>many</key>
+			<string>очков</string>
+		</dict>
+		<key>яблоко</key>
+		<dict>
+			<key>one</key>
+			<string>яблоко</string>
+			<key>few</key>
+			<string>яблока</string>
+			<key>many</key>
+			<string>яблок</string>
+		</dict>
+	</dict>
+	<key>en</key>
+	<dict>
+		<key>glasses</key>
+		<dict>
+			<key>one</key>
+			<string>glasses</string>
+			<key>many</key>
+			<string>glasses</string>
+		</dict>
+		<key>apple</key>
+		<dict>
+			<key>one</key>
+			<string>apple</string>
+			<key>many</key>
+			<string>apples</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
